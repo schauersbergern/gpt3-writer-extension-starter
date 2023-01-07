@@ -77,6 +77,7 @@ const generateCompletionAction = async (info) => {
         console.log(error);
         // Add this here as well to see if we run into any errors!
         sendMessage(error.toString());
+        //comment for the stars
     }
 };
 
